@@ -16,6 +16,4 @@ const style = {
     position: "relative"
   }
 };
-
 export { CardSection };
-// export default CardSection;
