@@ -6,7 +6,9 @@ const Header = props => {
   const { textStyle, viewStyle } = styles;
   return (
     <View style={viewStyle}>
-      <Text style={textStyle}>{props.headerText}</Text>
+      <Text onPress={() => console.log("header")} style={textStyle}>
+        {props.headerText}
+      </Text>
     </View>
   );
 };
